@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0673FBB21F77155900D42A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673FBB11F77155900D42A73 /* AppDelegate.swift */; };
-		0673FBB41F77155900D42A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673FBB31F77155900D42A73 /* ViewController.swift */; };
+		0673FBB41F77155900D42A73 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673FBB31F77155900D42A73 /* MainVC.swift */; };
 		0673FBB71F77155900D42A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0673FBB51F77155900D42A73 /* Main.storyboard */; };
 		0673FBB91F77155900D42A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0673FBB81F77155900D42A73 /* Assets.xcassets */; };
 		0673FBBC1F77155900D42A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0673FBBA1F77155900D42A73 /* LaunchScreen.storyboard */; };
+		0673FBC61F771B5900D42A73 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673FBC51F771B5800D42A73 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0673FBAE1F77155900D42A73 /* Shopper Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopper Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0673FBB11F77155900D42A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0673FBB31F77155900D42A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0673FBB31F77155900D42A73 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		0673FBB61F77155900D42A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0673FBB81F77155900D42A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0673FBBB1F77155900D42A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0673FBBD1F77155900D42A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673FBC51F771B5800D42A73 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		0673FBB01F77155900D42A73 /* Shopper Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				0673FBC41F77195F00D42A73 /* Controller */,
+				0673FBC31F77194B00D42A73 /* View */,
 				0673FBB11F77155900D42A73 /* AppDelegate.swift */,
-				0673FBB31F77155900D42A73 /* ViewController.swift */,
+				0673FBB31F77155900D42A73 /* MainVC.swift */,
 				0673FBB51F77155900D42A73 /* Main.storyboard */,
 				0673FBB81F77155900D42A73 /* Assets.xcassets */,
 				0673FBBA1F77155900D42A73 /* LaunchScreen.storyboard */,
 				0673FBBD1F77155900D42A73 /* Info.plist */,
 			);
 			path = "Shopper Calculator";
+			sourceTree = "<group>";
+		};
+		0673FBC31F77194B00D42A73 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0673FBC51F771B5800D42A73 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0673FBC41F77195F00D42A73 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0673FBB41F77155900D42A73 /* ViewController.swift in Sources */,
+				0673FBB41F77155900D42A73 /* MainVC.swift in Sources */,
 				0673FBB21F77155900D42A73 /* AppDelegate.swift in Sources */,
+				0673FBC61F771B5900D42A73 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
