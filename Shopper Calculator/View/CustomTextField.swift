@@ -8,15 +8,15 @@
 
 import UIKit
 
-@IBDesignable
+//@IBDesignable
 
 class CustomTextField: UITextField {
 
-
+    /* Update Builder interface
     override func prepareForInterfaceBuilder() {
         customTextField()
     }
-
+    */
     
     override func awakeFromNib() {
         super.awakeFromNib()
